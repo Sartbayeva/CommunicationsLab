@@ -1,0 +1,124 @@
+/* 
+Hana Selmani, Majid Ibrahim, Mira Saleh, Aiya Sartbayeva
+Communications Lab
+Assignment 3 - Audio
+CSS file 
+*/
+
+/* to be applied to the whole site */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #211301;
+    font-family: "Georgia", Times, serif;
+}
+
+/* slideshow properies */
+#slideshow {
+    /* rounded corners */
+    border-radius: 1.5vw;
+    padding: 0;
+    display: block;
+    /* center images */
+    margin: 0 auto;
+    /* sizing */
+    height: 100%;
+    max-width: 100%;
+}
+  
+/* to be applied to all pages */
+.page {
+    padding: 2%;
+    /* height of screen */
+    height: 100vh;
+    position: relative;
+    box-sizing: border-box;
+    /* in case there's no images */
+    background-color: #211301;
+}
+
+/* page 1 properties */
+#page-1 {
+    /* background image */
+    background-image: url(imgs/bg3.png);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+
+#page-2 {
+    /* background image */
+    background-image: url(imgs/bg2.png);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#page-3 {
+    /* background image */
+    background-image: url(imgs/OutroPage.png);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+/* title of website properties */
+#p1 {
+    /* positioning */
+    text-align: center;
+    margin-top: 20%;
+    /* size */
+    font-size: 60px;
+    /* colors */
+    color: #fbe2aa;
+    text-shadow: 3px 3px black;
+}
+
+/* credits text */
+#p2 {
+    /* positioning & colors */
+    position: absolute;
+    right: 43%; 
+    top: 10%;
+    font-size: 40px;
+    color: #fbe2aa;
+}
+
+/* p3-p6 are our names */
+#p3 {
+    /* positioning & colors */
+    position: absolute;
+    left: 28%; 
+    top: 40%;
+    color: #fbe2aa;
+    font-size: 40px;
+}
+
+#p4 {
+    /* positioning & colors */
+    position: absolute;
+    left: 28%; 
+    top: 60%;
+    color: #fbe2aa;
+    font-size: 40px;
+}
+
+#p5 {
+    /* positioning & colors */
+    position: absolute;
+    right: 28%; 
+    top: 40%;
+    color: #fbe2aa;
+    font-size: 40px;
+}
+
+#p6 {
+    /* positioning & colors */
+    position: absolute;
+    right: 28%; 
+    top: 60%;
+    color: #fbe2aa;
+    font-size: 40px;
+}
